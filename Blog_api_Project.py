@@ -9,7 +9,7 @@ def database():
         mydb = mysql.connector.connect(host='localhost',
                                    user='root',
                                    password='your database password',
-                                   database= 'Database name')
+                                   database= 'private_deal')
         
         cur = mydb.cursor()
     except NameError as e:
