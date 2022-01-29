@@ -4,8 +4,8 @@ import mysql.connector #version 8.0.25
 
 mydb = mysql.connector.connect(host = 'localhost',
                                user = 'root',
-                               password = 'SU9887@',
-                               database = 'private_deal')
+                               password = 'Your database password',
+                               database = 'private_deal') 
 cur = mydb.cursor()
 print(mydb.connection_id)
 
