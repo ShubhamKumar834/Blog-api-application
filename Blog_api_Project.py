@@ -8,8 +8,8 @@ def database():
     try:
         mydb = mysql.connector.connect(host='localhost',
                                    user='root',
-                                   password='SU9887@',
-                                   database= 'Private_deal')
+                                   password='your database password',
+                                   database= 'Database name')
         
         cur = mydb.cursor()
     except NameError as e:
